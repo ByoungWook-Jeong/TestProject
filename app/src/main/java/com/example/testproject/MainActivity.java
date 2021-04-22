@@ -9,7 +9,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        //test
+        //test2
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         common_log = new Common_Log(this.getClass().getName().trim());
