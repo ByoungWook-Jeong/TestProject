@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
         ShowMainActivityLog();
 
         common_log.BwToast_l(this, "show short toast");
-
 //        Common_Log common_log1 = Common_Log.getInstance();
 //        Common_Log common_log2 = Common_Log.getInstance();
 //
@@ -35,6 +34,5 @@ public class MainActivity extends AppCompatActivity {
         if(common_log != null) {
             common_log.BwLog(common_log.LOG_WARNING,"Message to Warning");
         }
-
     }
 }
